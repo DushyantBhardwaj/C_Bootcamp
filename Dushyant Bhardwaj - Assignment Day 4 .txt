@@ -1,0 +1,231 @@
+﻿Ans 1. #include<iostream>
+using namespace std;
+int main()
+{
+        char alphabet;
+        cout<<"Enter ur alphabet";
+        cin>>alphabet;
+        
+        switch(alphabet)
+        {
+                case 'A':
+                        cout<<"Vowel";
+                        break;
+                        
+                case 'E':
+                        cout<<"Vowel";
+                        break;
+                        
+                case 'I':
+                        cout<<"Vowel";
+                        break;
+                        
+                case 'U':
+                        cout<<"Vowel";
+                        break;
+                        
+                case 'O':
+                        cout<<"Vowel";
+                        break;
+                        
+                case 'a':
+                        cout<<"Vowel";
+                        break;
+                        
+                case 'e':
+                        cout<<"Vowel";
+                        break;
+                        
+                case 'i':
+                        cout<<"Vowel";
+                        break;
+                        
+                case 'o':
+                        cout<<"Vowel";
+                        break;
+                        
+                case 'u':
+                        cout<<"Vowel";
+                        break;
+                
+                default:
+                        cout<<"consonant";
+        }
+}
+
+
+Ans 2. #include<iostream>
+using namespace std;
+int main()
+{
+        int i;
+        cout<<"Enter ur number";
+        cin>>i;
+        
+        switch(i)
+        {
+                case 1:
+                        cout<<"Monday";
+                        break;
+                        
+                case 2:
+                        cout<<"Tuesday";
+                        break;
+                        
+                case 3:
+                        cout<<"Wednesday";
+                        break;
+                        
+                case 4:
+                        cout<<"Thursday";
+                        break;
+                        
+                case 5:
+                        cout<<"Friday";
+                        break;
+                        
+                case 6:
+                        cout<<"Saturday";
+                        break;
+                        
+                case 7:
+                        cout<<"Sunday";
+                        break;
+                
+                default:
+                        cout<<"there is no day";
+        }
+}
+
+
+Ans 3. # include <iostream>
+using namespace std;
+
+
+int main()
+{
+    char op;
+    float num1, num2;
+
+
+    cout << "Enter operator";
+    cin >> op;
+
+
+    cout << "Enter two operands: ";
+    cin >> num1 >> num2;
+
+
+    switch(op)
+    {
+        case '+':
+            cout << num1+num2;
+            break;
+
+
+        case '-':
+            cout << num1-num2;
+            break;
+
+
+        case '*':
+            cout << num1*num2;
+            break;
+
+
+        case '/':
+            cout << num1/num2;
+            break;
+
+
+        default:
+            cout << "Error! operator is not correct";
+            break;
+    }
+
+
+    return 0;
+}
+
+
+Ans 4. #include<iostream>
+using namespace std;
+int main()
+{
+        int i,j,k;
+                cout<<"Enter ur first no.";
+                cin>>i;
+        
+        cout<<"Enter ur second no.";
+        cin>>j;
+        
+        k = i;
+        i = j;
+        j = k;
+        
+        
+        cout<<"So the swapping first no. is : "<<i<<"\nSecond no. is: "<<j;
+        return 0 ;
+}
+
+
+Ans 5. #include<iostream>
+using namespace std;
+int main()
+{
+        int i = 2;
+        int j = 3;
+                cout<<"Enter ur first no.";
+                cin>>i;
+        
+        cout<<"Enter ur second no.";
+        cin>>j;
+        
+        
+        i = i + 1;
+        j = j - 1;
+        
+        
+        cout<<"So the swapping first no. is : "<<i<<"\nSecond no. is: "<<j;
+        return 0 ;
+}
+
+
+Ans 6 . #include<iostream>
+using namespace std;
+int main ()
+{
+    int num, temp, rev = 0,r;
+    cout << "Enter a number : ";
+    cin >> num;
+    temp = num;
+    while (temp != 0)
+    {
+        r = temp % 10;
+        rev = rev * 10 + r;
+        temp /= 10;
+    }
+    cout << "\nThe reverse of " << num << " is : " << rev;
+    return 0;
+}
+
+
+
+
+Ans 7. #include<iostream>
+using namespace std;
+int main ()
+{
+    int num, temp, rev = 0,r;
+    cout << "Enter a number : ";
+    cin >> num;
+    temp = num;
+    while (temp != 0)
+    {
+        r = temp % 10;
+        rev = rev * 10 + r;
+        temp /= 10;
+    }
+    cout << "\nThe reverse of " << num << " is : " << rev;
+    return 0;
+}

@@ -1,0 +1,202 @@
+﻿Ans1. #include<iostream>
+using namespace std;
+int main()
+{
+        int a;
+        cout<<"enter the number:";
+        cin>>a;
+        if(a%2==0)
+        cout<<"that's the even";
+        else
+        cout<<"that's the odd";
+        return 0;
+}
+
+
+Ans.2 #include<iostream>
+using namespace std;
+int main()
+{
+        int a;
+        cout<<"enter the number:";
+        cin>>a;
+        if(a>99 && a<1000 && a%2!=0)
+        cout<<"that's the three odd digit";
+        else
+        cout<<"that's not three odd digit";
+        return 0;
+}
+
+
+
+
+Ans3. #include<iostream>
+using namespace std;
+int main()
+{
+        int a;
+        cout<<"enter the number:";
+        cin>>a;
+        if(a>999 && a<10000 && a%2==0)
+        cout<<"that's the four even digit";
+        else
+        cout<<"that's not four even digit";
+        return 0;
+}
+
+
+
+
+Ans4.#include<iostream>
+using namespace std;
+int main()
+{
+        int a;
+        cout<<"enter the number:";
+        cin>>a;
+        if(a%4==0 || a%5 ==0 || a%6 == 0)
+        cout<<"that's divisible by 4,5,6";
+        else
+        cout<<"that's not divisible by 4,5,6";
+        return 0;
+}
+
+
+Ans5.#include<iostream>
+using namespace std;
+int main()
+{
+        int a;
+        cout<<"enter the number:";
+        cin>>a;
+        if(a>9 && a<100)
+        cout<<"Dushyant";
+        else
+        cout<<"sorry ERROR U didn't write two digit number";
+        return 0;
+}
+
+
+Ans6.#include<iostream>
+using namespace std;
+int main()
+{
+        int a,b,c,d;
+        cin>>a>>b>>c;
+        d = (a>b) ?  (a>c ? a:c) : (b>c ? b:c);
+        cout<<"largest no. is"<<d;
+        return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Ans7. #include<iostream>
+using namespace std;
+int main()
+{
+        int a,b,c,d;
+        cin>>a>>b>>c;
+        d = (a<b) ?  (a<c ? a:c) : (b<c ? b:c);
+        cout<<"smallest  no. is"<<d;
+        return 0;
+}
+
+
+Ans8.#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+        float n,sq;
+        cout<<"enter any number";
+        cin>>n;
+        sq = sqrt(n);
+        cout<<"square root of "<<n<<" is"<<sq;
+        return 0;
+}
+
+
+Ans9.#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+        float n,r;
+        cout<<"enter any number";
+        cin>>n;
+        r = pow(n,1.0/3.0);
+        cout<<"\n cube root of "<<n<<" is"<<r;
+        return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ans10..#include<iostream>
+using namespace std;
+int main()
+{
+        char a;
+        cout<<"enter ur alphabet";
+        cin>>a;
+        if(a>=65&&a<=90)
+        cout<<endl<<"its an uppercase";
+        else
+        cout<<endl<<"its not uppercase";
+        return 0;
+}
+
+
+Ans.11.#include<iostream>
+using namespace std;
+int main()
+{
+        char a;
+        cout<<"enter ur alphabet";
+        cin>>a;
+        if(a>=97&&a<=122)
+        cout<<endl<<"its a lowercase";
+        else
+        cout<<”its not lowercase”;
+        return 0;
+}
+
+
+Ans12.#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+        char c;
+        int uppercase,lowercase;
+        cout<<"enter ur alphabet";
+        cin>>c;
+        lowercase = (c=='a'|| c=='e'|| c=='i' || c=='o' || c=='u');
+        uppercase = (c=='A'|| c=='E'|| c=='I' || c=='O' || c=='U');
+        if(lowercase || uppercase)
+        cout<<"its a vowel";
+        else
+        cout<<"its not vowel";
+        return 0;
+}

@@ -1,0 +1,271 @@
+﻿Ans 1. #include<iostream>
+using namespace std;
+int main()
+{
+        int i;
+        
+        for(i=1;i<=20;i++)
+        
+        if(i%2!=0)
+        
+        cout<<"the odd no. are:"<<i<<endl;
+        
+        return 0;
+}
+
+
+Ans 2. #include<iostream>
+using namespace std;
+int main()
+{
+        int a,b,i;
+        cout<<"Enter ur first no.";
+        cin>>a;
+        
+        cout<<"Enter ur last no.";
+        cin>>b;
+        
+        for(i=a;i<=b;i++)
+        
+        if(i%2==0)
+        
+        cout<<"the odd no. are:"<<i<<endl;
+        
+        return 0;
+}
+
+
+Ans 3. #include <iostream>
+using namespace std;
+
+
+int main()
+{
+    int n;
+
+
+    cout << "Enter a positive integer: ";
+    cin >> n;
+
+
+    for (int i = 1; i <= 20; ++i) {
+        cout << n << " * " << i << " = " << n * i << endl;
+    }
+    
+    return 0;
+}
+
+
+Ans 4. #include<iostream>
+using namespace std;
+
+
+int main()
+{
+        int number;
+        
+        cout << "\nPlease Enter Maximum limit Value to print Even Numbers =  ";
+        cin >> number;
+        
+        cout << "\nList of Even Numbers are " << number << " are\n"; 
+        for(int i = 20; i >= number; i--)
+          {
+                  if ( i % 2 == 0 )
+                  {
+                          cout << i <<" ";
+                }        
+          }
+                
+         return 0;
+}
+
+
+Ans 5. #include <iostream>
+using namespace std;
+
+
+int main() {
+    int n, sum = n;
+
+
+    cout << "Enter a positive integer: ";
+    cin >> n;
+
+
+    for (int i = 1; i <= 5; ++i) {
+        sum += i;
+    }
+
+
+    cout << "Sum = " << sum;
+    return 0;
+}
+
+
+Ans 6.#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    int i, n;
+    float arr[100];
+
+
+    cout << "Enter total number of elements(1 to 100): ";
+    cin >> n;
+    cout << endl;
+
+
+    for(i = 0; i < n; ++i)
+    {
+       cout << "Enter Number " << i + 1 << " : ";
+       cin >> arr[i];
+    }
+    for(i = 1;i < n; ++i)
+    {
+       if(arr[0] < arr[i])
+           arr[0] = arr[i];
+    }
+    cout << "Largest element = " << arr[0];
+
+
+    return 0;
+}
+
+
+Ans 7.#include <iostream>
+using namespace std;
+int main()
+{
+    int i, num; 
+    int oddSum=0,evenSum=0;
+    cout<<"Enter the value of num \n";
+    cin>>num;
+    for(i=1; i<=num; i++){
+        if(i%2==0)  
+            evenSum=evenSum+i;
+        else
+            oddSum=oddSum+i;
+    }
+    cout<<"Sum of all odd numbers are:"<< oddSum;
+    cout<<"\nSum of all even numbers are:"<<evenSum;
+    return 0;
+}
+
+
+Ans 8.#include <iostream>
+using namespace std;
+
+
+void revOfString(const string& a);
+
+
+int main()
+{
+    string str;
+    cout << "\n\n Create and display the unique three-digit number using 1, 2, 3, 4:\n";
+        cout << "-------------------------------------------------------------------\n";
+        cout<<" The three-digit numbers are: "<<endl;
+                int amount = 0;
+                cout<<" ";
+                for(int i = 1; i <= 4; i++)
+                {
+                        for(int j = 1; j <= 4; j++)
+                        {
+                                for(int k = 1; k <= 4; k++)
+                                {
+                                        if(k != i && k != j && i != j)
+                                        {
+                                                amount++;
+                                                cout<<i <<j<<k<<" ";
+                                        }
+                                }
+                        }
+                }
+                cout<<endl<<" Total number of the three-digit-number is: "<< amount<<endl<<endl;
+}
+
+
+Ans9.
+
+
+Ans 10.#include <iostream>  
+using namespace std;  
+int main()  
+{  
+int n,sum=0,m;    
+cout<<"Enter a number: ";    
+cin>>n;    
+while(n>0)    
+{    
+m=n%10;    
+sum=sum+m;    
+n=n/10;    
+}    
+cout<<"Sum is= "<<sum<<endl;    
+return 0;  
+}  
+
+
+Ans 11. #include<iostream>
+using namespace std;
+int main()
+{
+    int pos=0, neg=0, zer=0, i, arr[10];
+    cout<<"Enter 10 Numbers: ";
+    for(i=0; i<10; i++)
+        cin>>arr[i];
+    for(i=0; i<10; i++)
+    {
+        if(arr[i]>0)
+            pos++;
+        else if(arr[i]==0)
+            zer++;
+        else
+            neg++;
+    }
+    cout<<"\nFrequency of Positive Numbers: "<<pos;
+    cout<<"\nFrequency of Zero: "<<zer;
+    cout<<"\nFrequency of Negative Numbers: "<<neg;
+    cout<<endl;
+    return 0;
+}
+
+
+Ans 12. #include <iostream>
+using namespace std;
+
+
+int main()
+{
+    int n, i;
+    float num[100], sum=0.0, average;
+
+
+    cout << "Enter the numbers of data: ";
+    cin >> n;
+
+
+    while (n > 100 || n <= 0)
+    {
+        cout << "Error! number should in range of (1 to 100)." << endl;
+        cout << "Enter the number again: ";
+        cin >> n;
+    }
+
+
+    for(i = 0; i < n; ++i)
+    {
+        cout << i + 1 << ". Enter number: ";
+        cin >> num[i];
+        sum += num[i];
+    }
+
+
+    average = sum / n;
+    cout << "Average = " << average;
+
+
+    return 0;
+}

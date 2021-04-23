@@ -1,0 +1,359 @@
+﻿Ans.1 #include<iostream>
+using namespace std;
+        int main()
+{
+
+
+        int a;
+        cout<<"Enter ur number";
+        cin>>a;
+        if(a%2==0)
+        cout<<"its an even";
+        else
+        cout<<"its an odd";
+        return 0;
+}
+
+
+Ans2.  #include<iostream>
+using namespace std;
+        int main()
+{
+
+
+        int a;
+        cout<<"Enter ur number";
+        cin>>a;
+        If(a>=100 && a<=999 && a%2!=0)
+        cout<<"its an odd";
+        else
+        cout<<"its not an odd";
+        return 0;
+}
+
+
+Ans3. #include<iostream>
+using namespace std;
+        int main()
+{
+
+
+        int a;
+        cout<<"Enter ur number";
+        cin>>a;
+        if(a>=1000 && a<=9999 && a%2==0)
+        cout<<"its an even";
+        else
+        cout<<"its not an even";
+        return 0;
+}
+Ans4. #include<iostream>
+using namespace std;
+        int main()
+{
+
+
+        int a;
+        cout<<"Enter ur number";
+        cin>>a;
+        if(a%4==0 || a%5==0 || a%6==0)
+        cout<<"its divisible by 4,5,6";
+        else
+        cout<<"its not divisible by 4,5,6";
+        return 0;
+}
+
+
+Ans5. #include<iostream>
+using namespace std;
+        int main()
+{
+
+
+        int a;
+        cout<<"Enter ur number";
+        cin>>a;
+        if(a>9 && a<99)
+        cout<<"Dushyant";
+        else
+        cout<<"its not two digit integer"
+return 0;;
+}
+
+
+Ans6. #include<iostream>
+using namespace std;
+        int main()
+{
+
+
+        float a,b,c;
+        cout<<"Enter ur number";
+        cin>>a>>b>>c;
+        if(a>=b && a>=c)
+        cout<<"the greater is"<<a;
+        if(b>=a && b>=c)
+        cout<<"the greater is"<<b;
+        if(c>=a && c>=b)
+        cout<<"the greater is"<<c;
+        return 0;
+}
+
+
+Ans7. #include<iostream>
+using namespace std;
+        int main()
+{
+
+
+        float a,b,c;
+        cout<<"Enter ur number";
+        cin>>a>>b>>c;
+        if(a<=b && a<=c)
+        cout<<"the smaller no. is:"<<a;
+        if(b<=a && b<=c)
+        cout<<"the smaller no. is:"<<b;
+        if(c<=a && c<=b)
+        cout<<"the smaller no. is:"<<c;
+        return 0;
+}
+
+
+Ans8.#include<iostream>
+using namespace std;
+int main()
+{
+
+
+        int a = 245,n,m,sum;
+        n = a % 10;
+        a = a / 10;
+        m = a % 10;
+        a = a / 10;
+        sum = n + a + m;
+        cout<<"sum of digit is :"<<sum;
+        return 0;
+}
+
+
+Ans9. #include<iostream>
+using namespace std;
+        int main()
+{
+
+
+        char n;
+        cout<<"enter ur vowel";
+        cin>>n;
+        if(n == 'A’ || n == 'E' || n == 'I' || n == 'O' || n == 'U' )
+        cout<<"its an uppercase";
+        if(n == 'a'|| n == 'e' || n == 'i' || n == 'o' || n == 'u')
+        cout<<"its a lowercase";
+        else
+        cout<<"ERROR! its not a vowel";
+        return 0;
+}
+
+
+Ans.12 #include<iostream>
+using namespace std;
+int main()
+{
+        int a;
+        cout<<"Enter ur first  number:";
+        cin>>a;
+        int b;
+        cout<<"enter ur second no.:";
+        cin>>b;
+        int c;
+        c = a + b;
+        cout<<"\naddition of both no.is:"<<c;
+        c = b - a;
+        cout<<"\nsubtraction of both no. is:"<<c;
+        c = a * b;
+        cout<<"\nmultiplication of both no.is:"<<c;
+        c = a / b;
+        cout<<"\ndividation of both no. is:"<<c;
+        c = a % b;
+        cout<<"\nmod of both no.is:"<<c;
+        return 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ans 13. #include <iostream>
+using namespace std;
+  
+int main()
+{
+        int a,b,c;
+        cout<<"Enter ur numbers";
+        cin>>a>>b>>c;
+
+
+    if((a < b && b < c) || (c < b && b < a))
+       cout<<b;
+  
+    else if((b < a && a < c) || (c < a && a < b))
+       cout<<a;
+  
+    else
+       cout<<c;
+       return 0;
+}
+
+
+Ans14. #include<iostream>
+using namespace std;
+
+
+int main()
+{
+        float English,Hindi,Mathematics,Science,Total,Percent;
+        cout<<"\nEnter ur English no.:";
+        cin>>English;
+        
+        cout<<"\nEnter ur hindi no,";
+        cin>>Hindi;
+        
+        cout<<"\nEnter ur mathematics no.";
+        cin>>Mathematics;
+        
+        cout<<"\nEnter ur science no.";
+        cin>>Science;\
+        
+        Total = English+Hindi+Mathematics+Science;
+        
+        cout<<"\nthe sum of total subject is:"<<Total;
+        
+        Percent = Total/400*100;
+        cout<<"\nNow ur percent will be:"<<Percent;
+        
+        if(Percent<40)
+        cout<<"\nRe Appear";
+        
+        if(Percent>=40 && Percent<50)
+        cout<<"\n3rd Division";
+        
+        if(Percent>=50 && Percent<60)
+        cout<<"\n2nd Division";
+        
+        if(Percent>=60)
+        cout<<"\n1st Division";
+        
+        return 0;
+        
+}
+
+
+Ans 15. #include<iostream>
+using namespace std;
+int main()
+{
+        int year;
+        cout<<"Enter ur year:";
+        cin>>year;
+        
+        if(year%4==0)
+        
+        cout<<"its a leap year";
+        else
+        cout<<"its not a leap year";
+}
+
+
+Ans16.#include<iostream>
+using namespace std;
+int main()
+{
+        int salary,net_salary,bonus;
+        cout<<"enter salary : ";
+        cin>>salary;
+        if(salary>=15000)
+        {
+                bonus=(salary*10)/100;
+                net_salary=salary+bonus;
+                cout<<"\tsalary="<<salary;
+                cout<<"\tBonus="<<bonus;
+                cout<<"\t\tNet salary= "<<net_salary;
+        }
+        else
+        if(salary<15000&&salary>=10000)
+        {
+                bonus=(salary*8)/100;
+                net_salary=salary+bonus;
+                cout<<"\tsalary="<<salary;
+                cout<<"\tBonus="<<bonus;
+                cout<<"\t\tNet salary= "<<net_salary;
+        }
+        else
+        if(salary<10000)
+        {
+                bonus=(salary*0)/100;
+                net_salary=salary+bonus;
+                cout<<"\tsalary="<<salary;
+                cout<<"\tBonus="<<bonus;
+                cout<<"\t\tNet salary= "<<net_salary;
+}
+        return 0;
+}
+
+
+Ans.17 #include<iostream>
+using namespace std;
+int main()
+{
+        int a,b,count=0;
+        cin>>a;
+        if(a>=1000 && a<=9999)
+        {
+                b = a%10;
+                a = a/10;
+                if(b%2==0)
+                {
+                        count=count+1;
+                }
+                b = a%10;
+                a = a/10;
+                if(b%2==0)
+                {
+                        count = count+1;
+                }
+                if(a%2==0)
+                {
+                        count=count+1;
+                }
+                
+                cout<<"count of even digits"<<count;
+                
+        }
+        else{
+                cout<<"not a valid no.";
+        }
+                
+                
+        return 0;
+}
