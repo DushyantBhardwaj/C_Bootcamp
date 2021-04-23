@@ -1,0 +1,87 @@
+﻿Ans3.#include<iostream>
+using namespace std;
+int main()
+{
+        float a,b,l;
+        cout<<"enter ur length:";
+        cin>>l;
+        cout<<"enter ur width:";
+        cin>>b;
+        a = l*b;
+        cout<<a;
+        return 0;
+}
+
+
+Ans.4 #include<iostream>
+using namespace std;
+int main()
+{
+        float a,p,r;
+        r = 5;
+        p = 3.14;
+        cout<<"enter ur radius:";
+        cin>>r;
+        a = p*r*r;
+        cout<<a;
+        return 0;
+}
+
+
+Ans.5 #include<iostream>
+using namespace std;
+int main()
+{
+        int a,c;
+        cout<<"enter the celsius:";
+        cin>>c;
+        a = c*9/5+32;
+        cout<<a;
+        return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Ans.6#include<iostream>
+using namespace std;
+int main()
+{
+        char father[10],mother[10],sibling[10];
+        cout<<"enter ur father's name:";
+        cin>>father;
+        cout<<"enter ur mother's name:";
+        cin>>mother;
+        cout<<"enter ur sibling name:";
+        cin>>sibling;
+        return 0;
+}
+
+
+Ans.7 #include<iostream>
+using namespace std;
+int main()
+{
+        int a,b,c;
+        cout<<"enter ur first no.";
+        cin>>a;
+        cout<<"enter ur second no.";
+        cin>>b;
+        c = a+b;
+        cout<<"\nso ur addition will be:"<<c;
+        c = b-a;
+        cout<<"\nur subtraction will be:"<<c;
+        c = a*b;
+        cout<<"\nur multiplication will be:"<<c;
+        c = a/b;
+        cout<<"\nur dividation will be:"<<c;
+        return 0;
+}
